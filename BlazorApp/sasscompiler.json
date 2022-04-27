@@ -1,0 +1,12 @@
+﻿{
+  "Arguments": "--style=compressed --no-source-map --no-error-css --stop-on-error --no-unicode",
+  "GenerateScopedCss": true,
+  "ScopedCssFolders": [
+    "Components"
+  ],
+  "Configurations": {
+    "Debug": {
+      "Arguments": "--style=expanded --no-source-map --no-error-css --stop-on-error --no-unicode"
+    }
+  }
+}
