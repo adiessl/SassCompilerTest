@@ -6,4 +6,8 @@
         <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="AspNetCore.SassCompiler" Version="1.51.0" />
+    </ItemGroup>
+
 </Project>
