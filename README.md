@@ -2,6 +2,10 @@
 
 This repository is meant to demonstrate a potential bug in [AspNetCore.SassCompiler](https://www.nuget.org/packages/AspNetCore.SassCompiler/), (https://github.com/koenvzeijl/AspNetCore.SassCompiler).
 
+**This has been fixed, see:**
++ https://github.com/koenvzeijl/AspNetCore.SassCompiler/issues/71
++ https://github.com/koenvzeijl/AspNetCore.SassCompiler/pull/72
+
 ## Problem
 
 It seems that if there are too many SCSS files, the compilation hangs and the build never completes.
